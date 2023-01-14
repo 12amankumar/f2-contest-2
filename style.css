@@ -1,0 +1,121 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+
+} 
+
+.main{
+    background: #000;
+    height: 100vh;
+    width: 100vw;
+}
+h2{
+   margin-top: 50px;
+    margin-left: 50px;
+    color: white;
+}
+#entername{
+    color: white;
+    font-size: 20px;
+    font-weight: 300;
+    margin-left: 30px;
+    margin-top: 70px;
+}
+
+#enterprofession{
+    color: white;
+    font-size: 20px;
+    font-weight: 300;
+    margin-left: 50px;
+    margin-top: 70px;
+}
+#enterage{
+    color: white;
+    font-size: 20px;
+    font-weight: 300;
+    margin-left: 50px;
+    margin-top: 70px; 
+}
+#name{
+    color: white;
+    margin-left: 30px;
+    background: #000;
+    outline: none;
+    border: 2px solid white;
+    margin-top: 5px;
+    width: 250px;
+    height: 40px;
+    border-radius: 5px;
+}
+#Profession{
+    color: white;
+    margin-left: 50px;
+    background: #000;
+    outline: none;
+    border: 2px solid white;
+    margin-top: 5px;
+    width: 250px;
+    height: 40px;
+    border-radius: 5px;
+}
+#Age{
+    color: white;
+    margin-left: 50px;
+    background: #000;
+    outline: none;
+    border: 2px solid white;
+    margin-top: 5px;
+    width: 250px;
+    height: 40px;
+    border-radius: 5px;
+}
+#btn{
+    margin-left: 30px;
+    margin-top:40px ;
+    width: 120px;
+    height: 40px;
+    background: white;
+    border: none;
+    outline: none;
+    border-radius: 7px;
+}
+.message{
+    width: 100%;
+    position: relative;
+    margin-bottom: 60px;
+    display: flex;
+    margin-left: 30px;
+    margin-top: 20px;
+}
+.message .success{
+    font-size: 20px;
+    color: green;
+    position: absolute;
+    display: none;
+}
+.message .feild{
+    font-size: 20px;
+    color: red;
+    position: absolute;
+    transition: .3s;
+    display: none;
+}
+h3{
+    font-size: 50px;
+    font-weight: 400;
+    margin-left: 30px;
+   
+    color: white;
+   
+}
+#myTable{
+    display: nonblock;
+    position: absolute;
+    color: white;
+    margin-top: 20px;
+    margin-left: 30px;
+}
+
+
